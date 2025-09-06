@@ -1,15 +1,22 @@
+import { useState } from "react";
 import ServerIcon from "../atoms/ServerIcon";
+import serversList from "../servers.json";
 
 export default function ServerList() {
+  const [Selected, setSelected] = useState<string | null>(null);
+  
   return (
     <div
       id="serverList"
-      className="bg-red-300 h-screen w-[72px] flex flex-col gap-2 items-center"
+      className="bg-[#121214] h-screen w-[72px] flex flex-col gap-2 items-center"
     >
-      <ServerIcon />
-      <span> </span> {/** Add spacing with line here is good idea */}
-      <ServerIcon />
-      <ServerIcon />
+      <ServerIcon name="Direct messages" />
+      <span className="span_server"> </span>
+      {serversList.map((server) => (
+        <ServerIcon key={server.id} name={server.ServerName} />
+      ))}
+      
+      
     </div>
   );
 }

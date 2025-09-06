@@ -7,7 +7,7 @@ export default function SideBar() {
   return (
     <div
       id="sideBar"
-      className="bg-amber-400 h-screen w-[375px] flex justify-between"
+      className="bg-[#121214] h-screen w-[375px] flex justify-between"
     >
       <ServerList />
       <ConversationPanel />

@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@layer components {
+    .span_server {
+        @apply block w-[30px] h-px bg-stone-700
+    }
+    .span_conversation {
+        @apply block w-[276px] h-px bg-stone-700 mx-auto
+    }
+    .user_dm {
+        @apply flex flex-row w-[276px] h-[40px] transition-all duration-100 text-white rounded-xl items-center justify-start pl-[10px] cursor-pointer
+    }
+}

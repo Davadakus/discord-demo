@@ -5,7 +5,7 @@ import UserDM from "../atoms/UserDM";
 function MainMenu() {
   return (
     <div>
-      <div className="flex w-screen h-[32px] bg-green-600 text-white justify-center items-center">
+      <div className="flex w-screen h-[32px] bg-[#121214] text-white justify-center items-center">
         Friends
       </div>
       <div className="bg-neutral-800 h-screen w-screen flex flex-row gap-5">
