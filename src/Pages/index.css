@@ -10,4 +10,7 @@
     .button {
         @apply flex flex-row w-[276px] h-[40px] transition-all duration-100 text-white rounded-xl items-center justify-start pl-[10px] cursor-pointer
     }
+    .textInputArea {
+        @apply h-full py-4 resize-none w-full outline-none text-white placeholder:text-gray-400
+    }
 }

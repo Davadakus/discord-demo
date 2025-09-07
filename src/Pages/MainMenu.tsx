@@ -5,12 +5,13 @@ import { useState } from "react";
 function MainMenu() {
   const [selected, setSelected] = useState<number | null>(null);
 
+  // remember to put everything in container
   return (
-    <div>
-      <div className="flex w-screen h-[32px] bg-[#121214] text-white justify-center items-center">
+    <div className="flex flex-col h-screen"> 
+      <div className="flex w-full h-[32px] bg-[#121214] text-white justify-center items-center">
         Friends
       </div>
-      <div className="bg-neutral-800 h-screen w-screen flex flex-row">
+      <div className="bg-neutral-800 h-full w-full flex flex-row">
         <SideBar selected={selected} setSelected={setSelected} />
         <MainPanel selected={selected} />
       </div>

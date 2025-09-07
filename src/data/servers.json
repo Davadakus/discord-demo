@@ -1,0 +1,5 @@
+[
+    {"serverName": "Server 1", "serverId":0}, 
+    {"serverName": "Very Long Server Name Prototype 2", "serverId":1}, 
+    {"serverName": "S3", "serverId":2}
+]
