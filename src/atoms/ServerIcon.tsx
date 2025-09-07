@@ -8,7 +8,7 @@ export default function ServerIcon({ name }: ServerIconProps) {
   const [hover, setHover] = useState(false)
   
   return (
-    <div className="relative"
+    <div className="relative "
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}>
       <div className="relative size-[40px] rounded-xl overflow-hidden">
@@ -20,7 +20,7 @@ export default function ServerIcon({ name }: ServerIconProps) {
       </div>
 
       <div 
-        className={`absolute bg-stone-800 text-white left-12 top-0 p-2 rounded-xl w-max max-w-[150px] break-words whitespace-normal transition-all duration-200 
+        className={`z-10 absolute bg-stone-800 text-white left-12 top-0 p-2 rounded-xl w-max max-w-[150px] break-words whitespace-normal transition-all duration-200 
           ${ hover ? "opacity-100" : "opacity-0 pointer-events-none"}`}
         >
         {name ? name : "empty server name"}

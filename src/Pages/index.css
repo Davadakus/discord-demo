@@ -2,12 +2,12 @@
 
 @layer components {
     .span_server {
-        @apply block w-[30px] h-px bg-stone-700
+        @apply block w-[30px] h-px bg-neutral-700 my-2
     }
     .span_conversation {
-        @apply block w-[276px] h-px bg-stone-700 mx-auto
+        @apply block w-[276px] h-px bg-neutral-700 my-2
     }
-    .user_dm {
+    .button {
         @apply flex flex-row w-[276px] h-[40px] transition-all duration-100 text-white rounded-xl items-center justify-start pl-[10px] cursor-pointer
     }
 }
