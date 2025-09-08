@@ -13,4 +13,7 @@
     .textInputArea {
         @apply h-full py-4 resize-none w-full outline-none text-white placeholder:text-gray-400
     }
+    /* .message {
+        @apply h-full py-4 resize-none w-full outline-none text-white placeholder:text-gray-400
+    } */
 }

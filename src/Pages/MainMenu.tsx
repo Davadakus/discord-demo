@@ -11,7 +11,7 @@ function MainMenu() {
       <div className="flex w-full h-[32px] bg-[#121214] text-white justify-center items-center">
         Friends
       </div>
-      <div className="bg-neutral-800 h-full w-full flex flex-row">
+      <div className="bg-neutral-800 flex-1 w-full flex flex-row">
         <SideBar selected={selected} setSelected={setSelected} />
         <MainPanel selected={selected} />
       </div>

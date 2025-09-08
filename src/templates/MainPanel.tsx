@@ -66,8 +66,8 @@ export default function MainPanel({ selected }: MainPanelProps){
     }
     
     return(
-        <div className="flex flex-1 flex-col bg-[#1A1A1E] h-full">
-            <div className="flex flex-1 flex-col text-white">
+        <div className="flex flex-1 flex-col h-full bg-[#1A1A1E] overflow-y-hidden">
+            <div className="flex-col flex-1 overflow-y-scroll text-white">
                 {messages.map((msg) => (
                     <MessageBox key={msg.messageId} username={userName}>
                         <p>{msg.message}</p>
@@ -75,7 +75,7 @@ export default function MainPanel({ selected }: MainPanelProps){
                     </MessageBox>
                 ))}
             </div>
-            <div className="flex flex-col px-2 h-[78px] ">
+            <div className="flex flex-none flex-col px-2 h-[78px] ">
                 <form className="flex flex-row bg-neutral-800 h-[58px] rounded-xl items-center pl-3" 
                     onSubmit={handleSubmit}>
                     <textarea 
@@ -86,21 +86,6 @@ export default function MainPanel({ selected }: MainPanelProps){
                         onKeyDown={(k) => keyPress(k)}
                     ></textarea>
                 </form>
-                {/* <form 
-                    className="flex flex-row bg-neutral-800 h-[58px] rounded-xl items-center pl-3" 
-                    action="/submit-post" 
-                    method="POST">
-                    <textarea 
-                        className="textInputArea" 
-                        placeholder="Message This User" 
-                        name="text"
-                        onKeyDown={(e) => keyPress(e)}
-                    ></textarea>
-                </form> */}
-
-                {/* <div className="flex bg-neutral-800 h-[58px] rounded-2xl"> 
-
-                </div> */}
             </div>
         </div>
     )
