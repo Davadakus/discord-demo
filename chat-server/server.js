@@ -13,17 +13,40 @@ app.get("/", (req, res) => {
 });
 
 app.get("/user/:id", (req, res) => {
-  const userId = req.params.id;
-  const filePath = `./messages/${userId}.json`;
+  let userId = req.params.id;
+  let filePath = `./messages/${userId}.json`;
   let messages = [];
-  let messagesDecode = [];
+  //   let messagesDecode = [];
   if (fs.existsSync(filePath)) {
     messages = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-    messagesDecode = JSON.stringify(messages);
+    // messagesDecode = JSON.stringify(messages);
   }
 
-  console.log(`Received Message from Server ${messagesDecode}`);
+  console.log(`Fetch request of userId ${userId}`);
   res.send(messages);
+});
+
+app.post("/submit-post", (req, res) => {
+  //   const data = req.body;
+  //   console.log(JSON.stringify(data));
+  let userId = req.body.senderId; // or however you know the user
+  let filePath = `./messages/${userId}.json`;
+  let messages = [];
+  if (fs.existsSync(filePath)) {
+    messages = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  }
+  let newMessage = {
+    messageId: req.body.messageId,
+    senderId: req.body.senderId,
+    message: req.body.message,
+    time: new Date().toString(),
+  };
+  messages.push(newMessage);
+  fs.writeFileSync(filePath, JSON.stringify(messages, null, 2));
+  res.json(newMessage);
+
+  console.log("Text has been sent successfuly");
+  //   res.send("Text has been sent");
 });
 
 app.listen(3000, () => {
