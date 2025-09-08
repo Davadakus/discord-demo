@@ -1,0 +1,4 @@
+[
+    {"messageId": 1, "senderId": 1, "message": "This is a test message", "time": "Mon Dec 24 2018 10:33:00"},
+    {"messageId": 2, "senderId": 1, "message": "Do you see this message?", "time": "Mon Dec 24 2018 10:33:10"}
+]
