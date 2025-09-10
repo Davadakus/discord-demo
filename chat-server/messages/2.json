@@ -2,55 +2,50 @@
   {
     "messageId": 1,
     "senderId": 2,
+    "receiverId": 2,
     "message": "This is a test message This is a test message This is a test message This is a test message This is a test message This is a test message This is a test message This is a test message",
     "time": "Mon Dec 24 2018 10:33:00"
   },
   {
     "messageId": 2,
     "senderId": 2,
+    "receiverId": 2,
     "message": "Do you see this message?",
     "time": "Mon Dec 24 2018 10:33:10"
   },
   {
     "messageId": 3,
-    "senderId": 2,
+    "senderId": 3,
+    "receiverId": 2,
     "message": "t",
-    "time": "Tue Sep 09 2025 00:52:05 GMT+1000 (Australian Eastern Standard Time)"
+    "time": "Wed Sep 10 2025 18:02:53 GMT+1000 (Australian Eastern Standard Time)"
   },
   {
     "messageId": 4,
-    "senderId": 2,
-    "message": "as intended",
-    "time": "Tue Sep 09 2025 00:52:13 GMT+1000 (Australian Eastern Standard Time)"
+    "senderId": 3,
+    "receiverId": 2,
+    "message": "test",
+    "time": "Wed Sep 10 2025 18:02:55 GMT+1000 (Australian Eastern Standard Time)"
   },
   {
     "messageId": 5,
-    "senderId": 2,
-    "message": "wow",
-    "time": "Tue Sep 09 2025 00:52:30 GMT+1000 (Australian Eastern Standard Time)"
+    "senderId": "Axel",
+    "receiverId": 2,
+    "message": "tete",
+    "time": "Wed Sep 10 2025 18:13:49 GMT+1000 (Australian Eastern Standard Time)"
   },
   {
     "messageId": 6,
-    "senderId": 2,
-    "message": "yes this works",
-    "time": "Tue Sep 09 2025 00:55:00 GMT+1000 (Australian Eastern Standard Time)"
+    "senderId": 3,
+    "receiverId": 2,
+    "message": "test",
+    "time": "Wed Sep 10 2025 18:14:22 GMT+1000 (Australian Eastern Standard Time)"
   },
   {
     "messageId": 7,
-    "senderId": 2,
-    "message": "wgz",
-    "time": "Tue Sep 09 2025 00:55:24 GMT+1000 (Australian Eastern Standard Time)"
-  },
-  {
-    "messageId": 8,
-    "senderId": 2,
-    "message": "sdgg\nsdfsdf",
-    "time": "Tue Sep 09 2025 00:55:26 GMT+1000 (Australian Eastern Standard Time)"
-  },
-  {
-    "messageId": 9,
-    "senderId": 2,
-    "message": "tetet",
-    "time": "Wed Sep 10 2025 17:29:49 GMT+1000 (Australian Eastern Standard Time)"
+    "senderId": 3,
+    "receiverId": 2,
+    "message": "wow",
+    "time": "Wed Sep 10 2025 18:14:23 GMT+1000 (Australian Eastern Standard Time)"
   }
 ]

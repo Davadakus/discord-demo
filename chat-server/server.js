@@ -29,8 +29,10 @@ app.get("/user/:id", (req, res) => {
 app.post("/submit-post", (req, res) => {
   //   const data = req.body;
   //   console.log(JSON.stringify(data));
-  let userId = req.body.senderId; // or however you know the user
-  let filePath = `./messages/${userId}.json`;
+  let receiver = req.body.receiverId; // receiveing the message
+  console.log(receiver);
+  // let sender = req.body.senderId; // sending the message
+  let filePath = `./messages/${receiver}.json`;
   let messages = [];
   if (fs.existsSync(filePath)) {
     messages = JSON.parse(fs.readFileSync(filePath, "utf-8"));
@@ -38,6 +40,7 @@ app.post("/submit-post", (req, res) => {
   let newMessage = {
     messageId: req.body.messageId,
     senderId: req.body.senderId,
+    receiverId: req.body.receiverId,
     message: req.body.message,
     time: new Date().toString(),
   };

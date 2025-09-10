@@ -2,115 +2,43 @@
   {
     "messageId": 1,
     "senderId": 1,
+    "receiverId": 1,
     "message": "This is a test message",
     "time": "Mon Dec 24 2018 10:33:00"
   },
   {
     "messageId": 2,
     "senderId": 1,
+    "receiverId": 1,
     "message": "Do you see this message?",
     "time": "Mon Dec 24 2018 10:33:10"
   },
   {
     "messageId": 3,
-    "senderId": 1,
+    "senderId": 3,
+    "receiverId": 1,
     "message": "test",
-    "time": "Tue Sep 09 2025 00:49:49 GMT+1000 (Australian Eastern Standard Time)"
+    "time": "Wed Sep 10 2025 18:02:57 GMT+1000 (Australian Eastern Standard Time)"
   },
   {
-    "messageId": 3,
-    "senderId": 1,
+    "messageId": 4,
+    "senderId": 3,
+    "receiverId": 1,
     "message": "test",
-    "time": "Tue Sep 09 2025 00:49:52 GMT+1000 (Australian Eastern Standard Time)"
+    "time": "Wed Sep 10 2025 18:03:01 GMT+1000 (Australian Eastern Standard Time)"
   },
   {
     "messageId": 5,
-    "senderId": 1,
-    "message": "t",
-    "time": "Tue Sep 09 2025 01:07:27 GMT+1000 (Australian Eastern Standard Time)"
+    "senderId": 3,
+    "receiverId": 1,
+    "message": "yo",
+    "time": "Wed Sep 10 2025 18:14:26 GMT+1000 (Australian Eastern Standard Time)"
   },
   {
     "messageId": 6,
-    "senderId": 1,
-    "message": "t",
-    "time": "Tue Sep 09 2025 01:07:27 GMT+1000 (Australian Eastern Standard Time)"
-  },
-  {
-    "messageId": 7,
-    "senderId": 1,
-    "message": "t",
-    "time": "Tue Sep 09 2025 01:07:27 GMT+1000 (Australian Eastern Standard Time)"
-  },
-  {
-    "messageId": 8,
-    "senderId": 1,
-    "message": "t",
-    "time": "Tue Sep 09 2025 01:07:27 GMT+1000 (Australian Eastern Standard Time)"
-  },
-  {
-    "messageId": 9,
-    "senderId": 1,
-    "message": "t",
-    "time": "Tue Sep 09 2025 01:07:28 GMT+1000 (Australian Eastern Standard Time)"
-  },
-  {
-    "messageId": 10,
-    "senderId": 1,
-    "message": "t",
-    "time": "Tue Sep 09 2025 01:07:28 GMT+1000 (Australian Eastern Standard Time)"
-  },
-  {
-    "messageId": 11,
-    "senderId": 1,
-    "message": "t",
-    "time": "Tue Sep 09 2025 01:07:28 GMT+1000 (Australian Eastern Standard Time)"
-  },
-  {
-    "messageId": 12,
-    "senderId": 1,
-    "message": "t",
-    "time": "Tue Sep 09 2025 01:07:29 GMT+1000 (Australian Eastern Standard Time)"
-  },
-  {
-    "messageId": 13,
-    "senderId": 1,
-    "message": "t",
-    "time": "Tue Sep 09 2025 01:07:29 GMT+1000 (Australian Eastern Standard Time)"
-  },
-  {
-    "messageId": 14,
-    "senderId": 1,
-    "message": "t",
-    "time": "Tue Sep 09 2025 01:07:29 GMT+1000 (Australian Eastern Standard Time)"
-  },
-  {
-    "messageId": 15,
-    "senderId": 1,
-    "message": "t",
-    "time": "Tue Sep 09 2025 01:07:30 GMT+1000 (Australian Eastern Standard Time)"
-  },
-  {
-    "messageId": 16,
-    "senderId": 1,
-    "message": "asdasd",
-    "time": "Tue Sep 09 2025 01:11:01 GMT+1000 (Australian Eastern Standard Time)"
-  },
-  {
-    "messageId": 17,
-    "senderId": 1,
-    "message": "tetet",
-    "time": "Tue Sep 09 2025 01:29:12 GMT+1000 (Australian Eastern Standard Time)"
-  },
-  {
-    "messageId": 18,
-    "senderId": 1,
-    "message": "tet",
-    "time": "Tue Sep 09 2025 01:29:13 GMT+1000 (Australian Eastern Standard Time)"
-  },
-  {
-    "messageId": 19,
-    "senderId": 1,
-    "message": "test",
-    "time": "Tue Sep 09 2025 01:29:41 GMT+1000 (Australian Eastern Standard Time)"
+    "senderId": 3,
+    "receiverId": 1,
+    "message": "what up madn",
+    "time": "Wed Sep 10 2025 18:14:31 GMT+1000 (Australian Eastern Standard Time)"
   }
 ]
