@@ -37,6 +37,7 @@ app.post("/submit-post", (req, res) => {
   if (fs.existsSync(filePath)) {
     messages = JSON.parse(fs.readFileSync(filePath, "utf-8"));
   }
+
   let newMessage = {
     messageId: req.body.messageId,
     senderId: req.body.senderId,
@@ -48,7 +49,7 @@ app.post("/submit-post", (req, res) => {
   fs.writeFileSync(filePath, JSON.stringify(messages, null, 2));
   res.json(newMessage);
 
-  console.log("Text has been sent successfuly");
+  console.log(`Text has been sent successfuly:\n ${req.body.message}`);
   //   res.send("Text has been sent");
 });
 
