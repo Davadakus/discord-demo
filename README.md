@@ -3,7 +3,8 @@
 This will be a website that merely tries to replicate the discord app on the web as a test for myself.
 
 # How to run
-Frontend: `npm run dev`
+Setup: `npm install` and `npm build`  
+Frontend: `npm run dev`  
 Backend: `node server.js` (Make sure you are inside `/chat-server`)
 
 # Deployed Site
